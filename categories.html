@@ -1,0 +1,138 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EbookMatic</title>
+<link rel="stylesheet" href="/style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<script src="https://kit.fontawesome.com/b0db4c9776.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        
+        <nav>
+            <a href="/index.html" class="logo">Ebook<span>Matic</span></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/index.html"><i class="fa-solid fa-house"></i>HOME</a> </li>
+                    <li><a href="/categories.html"><i class="fa-solid fa-folder-open"></i></i>CATEGORIES</a></li>
+                    <li><a href="/about.html"><i class="fa-solid fa-info"></i></i>ABOUT</a></li>
+                    <li><a href="/contact.html"><i class="fa-solid fa-rectangle-list"></i>Apply</a></li>
+                    
+                    
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>CATEGORIES</h1>
+    </section>
+    <div class="container">
+        <h2 class="sub-title">STORIES</h2>
+        <div class="exclusives" >
+            <div>
+                <img src="/images/sherlock.jpg">
+                <span>
+                    <h3>The-Adventures-of-Sherlock-Holmes</h3>
+                    <form class="books" action="The-Adventures-of-Sherlock-Holmes.pdf">
+                        <input type="submit" value="The-Adventures-of-Sherlock-Holmes" />
+                      </form>
+                </span>
+            </div>
+            <div>
+              <img src="images/Time Machine.jpg">
+              <span>
+                  <h3>The-Time-Machine</h3>
+                  <form class="books" action="The-Time-Machine.pdf">
+                    <input type="submit" value="The-Time-Machine" />
+                  </form>
+              </span>
+          </div>
+          
+          <div>
+              <img src="images/Invis man.jpg">
+              <span>
+                  <h3>The-Invisible-Man</h3>
+                  <form class="books" action="The-Invisible-Man.pdf">
+                    <input type="submit" value="The-Invisible-Man" />
+                  </form>
+              </span>
+          </div>
+          <div>
+              <img src="images/madness.jpg">
+              <span>
+                  <h3>At-The-Mountains of Madness</h3>
+                  <form class="books" action="At-the-Mountains-of-Madness.pdf">
+                    <input type="submit" value="At-the-Mountains-of-Madness" />
+                  </form>
+              </span>
+          </div><br>
+        
+        <br>
+        <h2 class="sub-title">TITLE</h2><br>
+        
+        <div>
+            <img src="images/tamarcus-brown-T3uKisfmABY-unsplash.jpg">
+            
+        </div>
+          <div>
+              <img src="images/book1.jpg">
+              <span>
+                  <h3>Book 1</h3>
+                  <p></p>
+              </span>
+          </div>
+          <div>
+              <img src="images/book2.jpg">
+              <span>
+                  <h3>Book 2</h3>
+                  <p></p>
+              </span>
+          </div>
+          <div>
+              <img src="images/book3.jpg">
+              <span>
+                  <h3>Book 3</h3>
+                  <p></p>
+              </span>
+          </div>
+          
+        </div>
+  
+        <!--<h2 class="sub-title">Trending Places</h2>
+        <div class="trending">
+          <div>
+              <img src="images/dubai.png">
+              <h3>Dubai</h3>
+          </div>
+          <div>
+              <img src="images/new-york.png">
+              <h3>New York</h3>
+          </div>
+          <div>
+              <img src="images/paris.png">
+              <h3>Paris</h3>
+          </div>
+          <div>
+              <img src="images/new-delhi.png">
+              <h3>New Delhi</h3>
+          </div>
+        </div>-->
+  
+        
+  
+       
+    <script>
+        var navLinks = document.getElementById("navLinks");
+    
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+    
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script> 
+</body>
+
+</html>
